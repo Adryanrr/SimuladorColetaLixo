@@ -15,7 +15,7 @@ import javafx.util.Duration;
 import java.util.HashMap;
 import java.util.Map;
 
-import estruturas.filas.FilaEncadeada;
+import estruturas.filas.FilaPrioridade;
 
 /**
  * Controlador principal da interface gráfica do simulador.
@@ -36,7 +36,7 @@ public class SimuladorFXController {
     private final Map<String, ZonaView> zonasView = new HashMap<>();
     private final Map<String, Point2D> posicoesEstacoes = new HashMap<>();
 
-    private final FilaEncadeada<Runnable> filaAnimacoes = new FilaEncadeada<>();
+    private final FilaPrioridade<Runnable> filaAnimacoes = new FilaPrioridade<>();
     private boolean animacaoEmAndamento = false;
 
     // Referência ao painel de status dos caminhões

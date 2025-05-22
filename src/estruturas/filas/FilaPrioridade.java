@@ -5,12 +5,12 @@ import estruturas.lista.No;
 /**
      * Implementação de uma fila encadeada
      */
-    public class FilaEncadeada<T> {
+    public class FilaPrioridade<T> {
         private No<T> inicio;
         private No<T> fim;
         private int tamanho;
 
-        public FilaEncadeada() {
+        public FilaPrioridade() {
             this.inicio = null;
             this.fim = null;
             this.tamanho = 0;
