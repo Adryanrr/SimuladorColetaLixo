@@ -25,25 +25,6 @@ Simular, de forma eficiente e flexível, o comportamento de caminhões de coleta
 
 ---
 
-## 🧱 Estrutura do Projeto
-
-```
-src/
-├── estruturas/
-│   └── lista/           # Lista duplamente encadeada própria
-├── simulador/
-│   ├── caminhoes/       # CaminhãoPequeno, CaminhãoGrande, animações
-│   ├── configuracao/    # Parâmetros da simulação
-│   ├── eventos/         # Eventos e Agenda de execução
-│   ├── estacoes/        # Estações de transferência
-│   ├── zona/            # Zonas da cidade (em desenvolvimento)
-│   ├── estatisticas/    # Cálculo e coleta de dados (em desenvolvimento)
-├── Simulador.java       # Classe principal da simulação
-└── Main.java            # Ponto de entrada
-```
-
----
-
 ## ⚙️ Como funciona
 
 1. A simulação inicia às **07:00 da manhã**.
