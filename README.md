@@ -42,9 +42,9 @@ Simular, de forma eficiente e flexível, o comportamento de caminhões de coleta
 - **Horário real da simulação:** convertido para `HH:mm`
 - **Horários de pico:**
   - Manhã: 07:00 às 09:00
-  - Tarde: 17:00 às 19:00
+  - Tarde: 17:00 às 20:00
 - **Multiplicador de tempo:**
-  - Pico: `1.5x`
+  - Pico: `2.0x`
   - Fora de pico: `1.0x`
 - **Tempos de operação:**
   - Viagens, cargas e descargas são proporcionalmente baseadas em toneladas
