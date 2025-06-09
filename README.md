@@ -47,8 +47,7 @@ Simular, de forma eficiente e flexível, o comportamento de caminhões de coleta
   - Pico: `2.0x`
   - Fora de pico: `1.0x`
 - **Tempos de operação:**
-  - Viagens, cargas e descargas são proporcionalmente baseadas em toneladas
-
+  - Viagens, cargas e descargas são proporcionalmente baseadas em toneladas e tempo.
 ---
 
 ## 🛠️ Parâmetros configuráveis
