@@ -18,8 +18,8 @@ Simular, de forma eficiente e flexível, o comportamento de caminhões de coleta
 
 ## 🧠 Tecnologias utilizadas
 
-- `Java 17` (padrão)
-- Estruturas de dados próprias (Lista Duplamente Encadeada)
+- `Java 21` (padrão)
+- Estruturas de dados próprias
 - Orientação a Objetos
 - Arquitetura orientada a eventos (Event-Driven Simulation)
 
