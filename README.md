@@ -53,16 +53,7 @@ Simular, de forma eficiente e flexível, o comportamento de caminhões de coleta
 
 ## 🛠️ Parâmetros configuráveis
 
-Todos os parâmetros estão definidos na classe `ParametrosSimulacao.java`, como por exemplo:
-
-```java
-public static final int CAMINHAO_GRANDE_20T = 20;
-public static final int TEMPO_DESCARGA_POR_TONELADA = 5;
-public static final int TEMPO_CARREGAMENTO_POR_TONELADA = 6;
-public static final double MULTIPLICADOR_TEMPO_PICO = 1.5;
-```
-
----
+Todos os parâmetros estão definidos na classe `ParametrosSimulacao.java`.
 
 ## 📦 Exemplos de saída
 
