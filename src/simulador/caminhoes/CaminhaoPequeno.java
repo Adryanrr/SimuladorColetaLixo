@@ -87,15 +87,6 @@ public class CaminhaoPequeno {
     // ========== ROTA ==========
 
     /**
-     * Retorna a zona atual da rota que o caminhão está atendendo.
-     *
-     * @return zona da etapa atual da rota
-     */
-    public Zona getZonaAtualDaRota() {
-        return rota.getValor(indiceRota);
-    }
-
-    /**
      * Avança para a próxima zona da rota, se houver.
      * Também atualiza a referência da zona alvo.
      */
