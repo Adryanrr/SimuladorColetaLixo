@@ -83,9 +83,4 @@ public class AgendaEventos {
             observadores.add(observer);
         }
     }
-
-    // ✅ MÉTODO NOVO: limpa todos os observadores
-    public static void limparObservers() {
-        observadores.clear();
-    }
 }
