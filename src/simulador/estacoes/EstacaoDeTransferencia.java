@@ -139,22 +139,6 @@ public class EstacaoDeTransferencia {
         }
     }
 
-    /*
-//    private void agendarNovaColetaAposDescarga(CaminhaoPequeno caminhao, int tempoFuturo) {
-//        if (!caminhao.podeRealizarNovaViagem()) {
-//            System.out.printf("[CAMINHÃO %s] Finalizou suas atividades do dia.%n", caminhao.getId());
-//            return;
-//        }
-//
-//        // Redirecionamento após descarga (dinâmico)
-//        GerenciadorDeRotas.redirecionarSeNecessario(caminhao, tempoFuturo);
-//
-//        // Agendamento da nova coleta (independente se houve troca de zona)
-//        Zona novaZona = caminhao.getZonaAlvo();
-//        AgendaEventos.adicionarEvento(new EventoColeta(tempoFuturo, caminhao, novaZona));
-//    }
-*/
-
     /**
      * Tenta descarregar todos os caminhões da fila de espera no caminhão grande atual.
      *
