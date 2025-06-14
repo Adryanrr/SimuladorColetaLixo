@@ -55,15 +55,6 @@ public class Zona {
     }
 
     /**
-     * Verifica se ainda há lixo acumulado na zona.
-     *
-     * @return {@code true} se houver lixo restante, {@code false} se estiver vazia
-     */
-    public boolean temLixoRestante() {
-        return lixoAcomulado > 0;
-    }
-
-    /**
      * Retorna a quantidade atual de lixo acumulado.
      *
      * @return valor acumulado em toneladas
