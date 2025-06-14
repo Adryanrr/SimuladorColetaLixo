@@ -87,17 +87,6 @@ public class CaminhaoPequeno {
     // ========== ROTA ==========
 
     /**
-     * Avança para a próxima zona da rota, se houver.
-     * Também atualiza a referência da zona alvo.
-     */
-    public void avancarParaProximaZona() {
-        if (indiceRota < rota.getTamanho() - 1) {
-            indiceRota++;
-            this.zonaAlvo = rota.getValor(indiceRota);
-        }
-    }
-
-    /**
      * Verifica se ainda há zonas na rota a serem visitadas.
      *
      * @return true se há mais zonas na rota; false caso contrário
