@@ -87,15 +87,6 @@ public class CaminhaoPequeno {
     // ========== ROTA ==========
 
     /**
-     * Verifica se ainda há zonas na rota a serem visitadas.
-     *
-     * @return true se há mais zonas na rota; false caso contrário
-     */
-    public boolean temMaisZonasNaRota() {
-        return indiceRota < rota.getTamanho() - 1;
-    }
-
-    /**
      * @return rota completa do caminhão (lista de zonas)
      */
     public Lista<Zona> getRota() {
