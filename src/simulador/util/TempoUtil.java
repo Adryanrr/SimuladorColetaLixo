@@ -112,17 +112,6 @@ public class TempoUtil {
         int tempoExtraCarregado = carregado ? (int) (tempoDeslocamento * 0.3) : 0;
         int tempoTotal = tempoColeta + tempoDeslocamento + tempoExtraCarregado;
 
-//        System.out.println(ConsoleCor.ROXO +
-//                "\n📍 [TempoUtil] " +
-//                "Hora sim.: " + TempoUtil.formatarHorarioSimulado(tempoAtual) +
-//                " | HORA: " + hora + "h" +
-//                " | PICO? " + (pico ? "✅ SIM" : "❌ NÃO") +
-//                "\n  ↪ Coleta: " + tempoColeta + " min" +
-//                " | Desloc.: " + tempoDeslocamento + " min" +
-//                " | Extra carga: " + tempoExtraCarregado + " min" +
-//                " | TOTAL: " + tempoTotal + " min\n" +
-//                ConsoleCor.RESET);
-
         return new TempoDetalhado(tempoColeta, tempoDeslocamento, tempoExtraCarregado);
     }
 }
