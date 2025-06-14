@@ -64,7 +64,6 @@ public class Zona {
     }
 
     /**
-     * (Não utilizado)
      * <p>
      * Verifica se a zona está completamente limpa (sem lixo acumulado).
      *
@@ -72,18 +71,6 @@ public class Zona {
      */
     public boolean estaLimpa() {
         return lixoAcomulado == 0;
-    }
-
-    /**
-     * (Não utilizado)
-     * <p>
-     * Verifica se a zona precisa de coleta, com base em um limite mínimo definido.
-     *
-     * @param limiteMinimo o valor mínimo que define a necessidade de coleta
-     * @return {@code true} se o lixo acumulado for igual ou maior ao limite
-     */
-    public boolean precisaDeColeta(int limiteMinimo) {
-        return lixoAcomulado >= limiteMinimo;
     }
 
     /**
