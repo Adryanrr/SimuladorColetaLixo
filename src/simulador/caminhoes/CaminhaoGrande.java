@@ -31,17 +31,6 @@ public class CaminhaoGrande {
         return id;
     }
 
-     /**
-     * (Não utilizado)
-     * <p>
-     * Retorna a capacidade máxima de carga do caminhão.
-     *
-     * @return capacidade máxima (em unidades)
-     */
-    public int getCapacidadeMaxima() {
-        return capacidadeMaxima;
-    }
-
     /**
      * Verifica se o caminhão atingiu sua capacidade máxima de carga.
      *
